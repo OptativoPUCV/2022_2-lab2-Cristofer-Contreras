@@ -11,3 +11,16 @@ list.c:34:10: error: ‘List’ {aka ‘struct List’} has no member named ‘u
       |          ^~
 Compilation failed
 b9b72c8
+Thu 18 Aug 2022 01:31:22 AM UTC: 
+ list.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+list.c: In function ‘createList’:
+list.c:33:10: error: ‘List’ {aka ‘struct List’} has no member named ‘first’
+   33 |         L->first = NULL;
+      |          ^~
+list.c:34:10: error: ‘List’ {aka ‘struct List’} has no member named ‘last’
+   34 |         L->last = NULL;
+      |          ^~
+Compilation failed
+64a9363
