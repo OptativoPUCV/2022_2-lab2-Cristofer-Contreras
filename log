@@ -1,0 +1,13 @@
+Thu 18 Aug 2022 01:30:21 AM UTC: 
+ list.c | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+list.c: In function ‘createList’:
+list.c:33:10: error: ‘List’ {aka ‘struct List’} has no member named ‘primero’
+   33 |         L->primero = NULL;
+      |          ^~
+list.c:34:10: error: ‘List’ {aka ‘struct List’} has no member named ‘ultimo’
+   34 |         L->ultimo = NULL;
+      |          ^~
+Compilation failed
+b9b72c8
