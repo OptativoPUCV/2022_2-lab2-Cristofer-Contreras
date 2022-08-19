@@ -91,3 +91,14 @@ Fri 19 Aug 2022 01:15:57 PM UTC:
  tests:  3|4
 total_score: 25/70
 2279b30
+Fri 19 Aug 2022 01:24:53 PM UTC: 
+ list.c | 7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+list.c: In function ‘popCurrent’:
+list.c:105:1: error: control reaches end of non-void function [-Werror=return-type]
+  105 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+c728f00
