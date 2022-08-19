@@ -68,3 +68,9 @@ list.c:63:6: note: declared here
 cc1: all warnings being treated as errors
 Compilation failed
 79ce2cd
+Fri 19 Aug 2022 01:06:11 PM UTC: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  3|4
+total_score: 25/70
+b26791e
