@@ -47,7 +47,7 @@ void * nextList(List * list) {
   if(list->current == NULL) return NULL;
   list->current = list->current->prev;
   
-  return list->current->prev;
+  return NULL;
 }
 
 void * lastList(List * list) {
