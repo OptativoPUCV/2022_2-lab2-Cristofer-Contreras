@@ -109,7 +109,7 @@ void * popBack(List * list) {
 }
 
 void * popCurrent(List * list) {
-  //no se xD
+  //no se xD, na mentira
   
   
   return NULL;
