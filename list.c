@@ -109,7 +109,8 @@ void * popBack(List * list) {
 }
 
 void * popCurrent(List * list) {
-  //no se xD, na mentira
+  if(list->current->prev != NULL)
+    list->current->next->prev = list->current->prev;
   
   
   return NULL;
