@@ -130,3 +130,16 @@ Fri 19 Aug 2022 01:30:11 PM UTC:
  tests:  3|4
 total_score: 25/70
 28e4592
+Sat 20 Aug 2022 10:31:24 PM UTC: 
+ list.c | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+list.c: In function ‘nextList’:
+list.c:49:31: error: expected ‘;’ before ‘}’ token
+   49 |     return list->current->data
+      |                               ^
+      |                               ;
+   50 |   }
+      |   ~                            
+Compilation failed
+7f28267
